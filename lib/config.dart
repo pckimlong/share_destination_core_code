@@ -1,0 +1,3 @@
+const kSupabaseUrl = "https://ayzhcvlqyosxbepdsiyl.supabase.co";
+const kSupabaseAnnonKey =
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5emhjdmxxeW9zeGJlcGRzaXlsIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDcxNTg4MTgsImV4cCI6MTk2MjczNDgxOH0.IKW7WotaOWz56R6HzIa8yMvqjvJ5T8zEiG2djy8pQKA";
