@@ -111,7 +111,7 @@ class LocationRepoImpl implements ILocationRepo {
   }
 
   @override
-  Stream<Either<Failure, PositionDetail>> watchMyPositionDetail(
+  Stream<Either<Failure, DriverPosition>> watchMyPositionDetail(
       [int filter = 5]) {
     // TODO: implement watchMyPositionDetail
     throw UnimplementedError();

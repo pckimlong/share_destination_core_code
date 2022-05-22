@@ -1,3 +1,5 @@
+import 'package:core/domain/entities/driver_position.dart';
+
 import '../../libraries.dart';
 import '../core/core.dart';
 import '../entities/entities.dart';
@@ -12,7 +14,7 @@ abstract class ILocationRepo {
   Future<Either<Failure, Address>> getAddressByCoordinate(
       Coordinate coordinate);
 
-  Stream<Either<Failure, PositionDetail>> watchMyPositionDetail(
+  Stream<Either<Failure, DriverPosition>> watchMyPositionDetail(
       [int filter = 5]);
 
   Future<Either<Failure, Option<Address>>> getAddressByString(String address);
